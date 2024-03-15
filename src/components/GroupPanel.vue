@@ -66,8 +66,9 @@ const customColors = [
           <el-scrollbar>
             <div class="scrollbar-flex-content">
               <span v-for="(outlet,index) in station.outletStatus">
-              <p v-if="outlet.free" class="scrollbar-demo-item" style="background: #67C23A; color: #FAFAFA">{{Math.min(outlet.usedMin, 999)}}</p>
-              <p v-else class="scrollbar-demo-item" style="background: #909399 ; color: #FAFAFA">{{outlet.usedMin}}</p>
+              <p v-if="outlet.maintaining" class="scrollbar-demo-item" style="background: #909399; color: #FAFAFA">{{Math.min(outlet.usedMin, 999)}}</p>
+              <p v-else-if="outlet.free" class="scrollbar-demo-item" style="background: #67C23A; color: #FAFAFA">{{Math.min(outlet.usedMin, 999)}}</p>
+              <p v-else class="scrollbar-demo-item" style="background: #DF6523 ; color: #FAFAFA">{{outlet.usedMin}}</p>
               </span>
             </div>
           </el-scrollbar>

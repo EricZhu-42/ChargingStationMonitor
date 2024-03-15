@@ -36,7 +36,9 @@ const dialogVisible = ref(false)
     <div>
     <span class="scrollbar-demo-item" style="background: #67C23A; color: #FAFAFA; display: inline-flex">X</span> 表示对应充电口已空闲 X 分钟
     <br/>
-    <span class="scrollbar-demo-item" style="background: #909399 ; color: #FAFAFA; display: inline-flex">Y</span> 表示对应充电口已充电 Y 分钟
+    <span class="scrollbar-demo-item" style="background: #DF6523 ; color: #FAFAFA; display: inline-flex">Y</span> 表示对应充电口已充电 Y 分钟
+    <br/>
+    <span class="scrollbar-demo-item" style="background: #909399 ; color: #FAFAFA; display: inline-flex">Z</span> 表示对应充电口已维护 Z 分钟 
     </div>
 
     <template #footer>
