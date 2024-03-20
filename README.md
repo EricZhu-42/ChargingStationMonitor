@@ -6,7 +6,7 @@
 
 ## 功能介绍
 
-显示南京大学仙林校区内所有电动车充电站的占用状态，约 3~5 分钟完整更新一次。
+显示南京大学仙林校区内所有电动车充电站的占用及维护状态，约 3~5 分钟完整更新一次。
 
 包含 “已占用时间” “已空闲时间” 等细节信息。
 
@@ -21,5 +21,5 @@
 
 ## 致谢
 
-[Vercel](https://vercel.com/) & [Mongodb Atlas](https://www.mongodb.com/zh-cn/atlas/database)
+[Vercel](https://vercel.com/) & [MongoDB Atlas](https://www.mongodb.com/zh-cn/atlas/database)
 
