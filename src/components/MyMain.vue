@@ -4,7 +4,7 @@ import GroupPanel from './GroupPanel.vue';
 
 const allData = ref(null);
 fetch(
-  'https://eastasia.azure.data.mongodb-api.com/app/application-0-skgpp/endpoint/real_time',
+  'https://eastasia.azure.data.mongodb-api.com/app/application-0-skgpp/endpoint/realtime_v2',
 )
   .then((response) => response.json())
   .then((data) => (allData.value = data.result))
