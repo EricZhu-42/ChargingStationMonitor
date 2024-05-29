@@ -16,10 +16,15 @@ const dialogVisible = ref(false)
     @select="handleSelect"
   >
     <el-menu-item index="0">南哪充电</el-menu-item>
+    <el-menu-item index="1">
+      <a href="https://stats.uptimerobot.com/nVpKhKGEtd" target="_blank" style="text-decoration:none">
+        运行状态
+      </a>
+    </el-menu-item>
     
     <div class="flex-grow" />
-    <el-menu-item index="1" @click="dialogVisible = true">使用说明</el-menu-item>
-    <el-menu-item index="2">
+    <el-menu-item index="2" @click="dialogVisible = true">使用说明</el-menu-item>
+    <el-menu-item index="3">
       <div style="display: flex; align-items: center;">
         <a href="https://github.com/EricZhu-42/ChargingStationMonitor" style="display: flex">
           <img style="height: 30px" src="/src/assets/github-mark.svg"/>
