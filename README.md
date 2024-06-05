@@ -21,6 +21,10 @@
 - [ ] 空闲预测
 - [ ] 显示效果优化
 
+## DataDump
+
+充电站状态历史数据可以在 [GoogleDrive](https://drive.google.com/drive/folders/1ubZtjE4W07P0NRi36K2cR8D7opyey2b3?usp=sharing) 免费获得。
+
 ## 致谢
 
 [Vercel](https://vercel.com/) & [MongoDB Atlas](https://www.mongodb.com/zh-cn/atlas/database)
