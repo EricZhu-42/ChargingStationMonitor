@@ -18,7 +18,7 @@ const dialogVisible = ref(false)
     <el-menu-item index="0">南哪充电</el-menu-item>
     <el-menu-item index="1">
       <a href="https://stats.uptimerobot.com/nVpKhKGEtd" target="_blank" style="text-decoration:none">
-        运行状态
+        状态监控
       </a>
     </el-menu-item>
     

@@ -46,7 +46,7 @@ const customColors = [
       <el-col :span="8" :xs="24" style="text-align: center">
         <el-progress
           type="dashboard"
-          stroke-width="8"
+          :stroke-width=8
           :percentage="(usedOutletCount / allOutletCount) * 100"
           :color="customColors"
           style="padding-top: 10px;"
