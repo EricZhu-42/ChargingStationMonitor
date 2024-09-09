@@ -1,6 +1,12 @@
 <script setup>
 import { ref } from 'vue';
 import GroupPanel from './GroupPanel.vue';
+import dayjs from "dayjs";
+import 'dayjs/locale/zh-cn';
+import relativeTime from "dayjs/plugin/relativeTime";
+
+dayjs.locale('zh-cn');
+dayjs.extend(relativeTime);
 
 const allData = ref(null);
 fetch(
@@ -18,7 +24,7 @@ fetch(
           <span style="font-size: 18px"><strong>{{groupData.groupName}}</strong></span>
         
           <span class="flex-grow"></span>
-          [{{new Date(groupData.timestamp * 1000).toLocaleString()}}]
+          [{{dayjs.unix(groupData.timestamp).fromNow()}}]
         </div>
       </template>
       <GroupPanel :groupData="groupData" />
