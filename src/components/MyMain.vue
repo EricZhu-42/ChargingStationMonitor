@@ -10,7 +10,7 @@ dayjs.extend(relativeTime);
 
 const allData = ref(null);
 fetch(
-  'https://eastasia.azure.data.mongodb-api.com/app/application-0-skgpp/endpoint/realtime_v2',
+  '/api/realtime',
 )
   .then((response) => response.json())
   .then((data) => (allData.value = data.result))
