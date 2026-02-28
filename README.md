@@ -23,7 +23,7 @@
 
 ## DataDump
 
-充电站状态历史数据可以通过 [GoogleDrive](https://drive.google.com/drive/folders/1ubZtjE4W07P0NRi36K2cR8D7opyey2b3?usp=sharing) 免费获取。（更新至 2025/01/27）
+充电站状态历史数据可以通过 [GoogleDrive](https://drive.google.com/drive/folders/1ubZtjE4W07P0NRi36K2cR8D7opyey2b3?usp=sharing) 免费获取。（更新至 2026/02/26）
 
 ## 致谢
 
